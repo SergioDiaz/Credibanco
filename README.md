@@ -1,2 +1,0 @@
-# Credibanco
-Prueba - Ingeniero Java
