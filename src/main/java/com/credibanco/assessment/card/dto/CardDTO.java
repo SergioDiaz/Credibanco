@@ -27,7 +27,7 @@ public class CardDTO {
 	private Long ownerSsn;
 	private String ownerPhone;
 	private String ownerEmail;
-	private Long pan;
+	private String pan;
 	public Long getCardId() {
 		return cardId;
 	}
@@ -112,10 +112,10 @@ public class CardDTO {
 	public void setOwnerEmail(String ownerEmail) {
 		this.ownerEmail = ownerEmail;
 	}
-	public Long getPan() {
+	public String getPan() {
 		return pan;
 	}
-	public void setPan(Long pan) {
+	public void setPan(String pan) {
 		this.pan = pan;
 	}
 }

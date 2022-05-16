@@ -29,7 +29,7 @@ public class TransactionServiceImpl implements TransactionService{
 	@Autowired
 	private ModelMapper modelMapper;
 	
-	Logger logger = LoggerFactory.getLogger(CardController.class);
+	Logger logger = LoggerFactory.getLogger(TransactionServiceImpl.class);
 	
 	public TransactionServiceImpl(TransactionRepository transactionRepository) {
 		super();
