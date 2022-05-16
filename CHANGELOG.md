@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 0.1.2 - 15-05-2022 - from [@Sergio Diaz]
+### Changed
+- CARD-002: Implements api's to transaction management.
+	1. New transaction.
+	2. Cancel transaction.
+
 ## 0.1.1 - 13-05-2022 - from [@Sergio Diaz]
 ### Changed
 - CARD-001: Implements api's to card management.
