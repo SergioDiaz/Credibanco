@@ -46,49 +46,37 @@ public class Transaction {
 	public Long getId() {
 		return id;
 	}
-
 	public void setId(Long id) {
 		this.id = id;
 	}
-
 	public String getRefNumer() {
 		return refNumer;
 	}
-
 	public void setRefNumer(String refNumer) {
 		this.refNumer = refNumer;
 	}
-
 	public Integer getAmount() {
 		return amount;
 	}
-
 	public void setAmount(Integer amount) {
 		this.amount = amount;
 	}
-
 	public String getAddress() {
 		return address;
 	}
-
 	public void setAddress(String address) {
 		this.address = address;
 	}
-
 	public Date getTrnDateTime() {
 		return trnDateTime;
 	}
-
 	public void setTrnDateTime(Date trnDateTime) {
 		this.trnDateTime = trnDateTime;
 	}
-
 	public Card getCard() {
 		return card;
 	}
-
 	public void setCard(Card card) {
 		this.card = card;
 	}
-
 }

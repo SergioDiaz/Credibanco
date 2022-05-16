@@ -42,9 +42,6 @@ public class Card {
 	@Column(name = "type", nullable = false)
 	private String type;
 
-	@Column(name = "deleted_date")
-	private Date deletedDate;
-
 	@Temporal(TemporalType.TIMESTAMP)
 	@Column(name = "created_date", nullable = false)
 	private Date createdDate;
@@ -80,119 +77,84 @@ public class Card {
 	public Long getId() {
 		return id;
 	}
-
 	public void setId(Long id) {
 		this.id = id;
 	}
-
 	public String getMasked() {
 		return masked;
 	}
-
 	public void setMasked(String masked) {
 		this.masked = masked;
 	}
-
 	public String getHashCode() {
 		return hashCode;
 	}
-
 	public void setHashCode(String hashCode) {
 		this.hashCode = hashCode;
 	}
-
 	public Integer getValidationNumber() {
 		return validationNumber;
 	}
-
 	public void setValidationNumber(Integer validationNumber) {
 		this.validationNumber = validationNumber;
 	}
-
 	public String getStatus() {
 		return status;
 	}
-
 	public void setStatus(String status) {
 		this.status = status;
 	}
-
 	public String getType() {
 		return type;
 	}
-
 	public void setType(String type) {
 		this.type = type;
 	}
-
-	public Date getDeletedDate() {
-		return deletedDate;
-	}
-
-	public void setDeletedDate(Date deletedDate) {
-		this.deletedDate = deletedDate;
-	}
-
 	public Date getCreatedDate() {
 		return createdDate;
 	}
-
 	public void setCreatedDate(Date createdDate) {
 		this.createdDate = createdDate;
 	}
-
 	public Date getEnrolledDate() {
 		return enrolledDate;
 	}
-
 	public void setEnrolledDate(Date enrolledDate) {
 		this.enrolledDate = enrolledDate;
 	}
-
 	public Boolean getActive() {
 		return active;
 	}
-
 	public void setActive(Boolean active) {
 		this.active = active;
 	}
-
 	public String getFirstName() {
 		return firstName;
 	}
-
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
-
 	public String getLastName() {
 		return lastName;
 	}
-
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-
 	public Long getSsn() {
 		return ssn;
 	}
-
 	public void setSsn(Long ssn) {
 		this.ssn = ssn;
 	}
-
 	public String getPhone() {
 		return phone;
 	}
-
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
-
 	public String getEmail() {
 		return email;
 	}
-
 	public void setEmail(String email) {
 		this.email = email;
 	}

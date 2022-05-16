@@ -21,7 +21,6 @@ public class CardDTO {
 	private String cardType;
 	private Date cardCreatedDate;
 	private Date cardEnrolledDate;
-	private Date cardDeletedDate;
 	private String ownerFirstName;
 	private String ownerLastName;
 	private Long ownerSsn;
@@ -75,12 +74,6 @@ public class CardDTO {
 	}
 	public void setCardEnrolledDate(Date cardEnrolledDate) {
 		this.cardEnrolledDate = cardEnrolledDate;
-	}
-	public Date getCardDeletedDate() {
-		return cardDeletedDate;
-	}
-	public void setCardDeletedDate(Date cardDeletedDate) {
-		this.cardDeletedDate = cardDeletedDate;
 	}
 	public String getOwnerFirstName() {
 		return ownerFirstName;
