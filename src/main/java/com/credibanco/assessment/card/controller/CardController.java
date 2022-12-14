@@ -46,7 +46,7 @@ public class CardController {
 		if(mapResponse.get("responseCode").equals(CardResponse.CREATED_SUCCESSFUL.getCode())) {
 			return new ResponseEntity<>(mapResponse, HttpStatus.CREATED);
 		}else {
-			return new ResponseEntity<>(mapResponse, HttpStatus.BAD_REQUEST);
+			return new ResponseEntity<>(mapResponse, HttpStatus.NOT_FOUND);
 		}
 	}
 
