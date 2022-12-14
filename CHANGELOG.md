@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 0.1.3 - 13-12-2022 - from [@Camilo Moreno]
+### Changed
+- CARD-003: Change controller response.
+	1. Change response to not found.
+
 ## 0.1.2 - 15-05-2022 - from [@Sergio Diaz]
 ### Changed
 - CARD-002: Implements api's to transaction management.
